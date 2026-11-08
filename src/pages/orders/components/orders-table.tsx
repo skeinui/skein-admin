@@ -1,8 +1,8 @@
 import { Button, Checkbox, Flex, Popconfirm, Table, Tag } from "@skeinui/ui";
-import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import type { Sort } from "@/lib/list-query";
 import { useAccess } from "@/modules/access";
+import { RouterLink } from "@/skein-shell";
 import type { Order } from "../api";
 import { useOrdersTranslation } from "../locales";
 
@@ -55,13 +55,13 @@ export function OrdersTable({
   const allSelected = ids.length > 0 && ids.every((id) => selected.includes(id));
   const cell: Record<OrdersColumn, (row: Order) => ReactNode> = {
     customer: (row) => (
-      <Link
+      <RouterLink
         from="/$tenant/orders"
         to="/$tenant/orders/$id"
         params={(prev) => ({ ...prev, id: String(row.id) })}
       >
         {row.customer}
-      </Link>
+      </RouterLink>
     ),
     email: (row) => row.email,
     status: (row) =>
