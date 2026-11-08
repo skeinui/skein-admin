@@ -1,0 +1,54 @@
+{
+  "title": "商品管理",
+  "description": "商品（由 OpenAPI 文档生成：/v1/catalog/products）",
+  "create": "新建",
+  "createTitle": "新建",
+  "editTitle": "编辑",
+  "edit": "编辑",
+  "delete": "删除",
+  "cancel": "取消",
+  "save": "保存",
+  "deleteConfirm": "确定删除 {{item}}？",
+  "created": "已新建 {{item}}",
+  "updated": "已保存 {{item}}",
+  "deleted": "已删除 {{item}}",
+  "exportSelected": "导出选中",
+  "selected": "已选 {{count}} 项",
+  "clear": "清除",
+  "selectAll": "全选",
+  "selectRow": "选择 {{item}}",
+  "deleteSelected": "删除选中",
+  "deleteManyConfirm": "确定删除选中的 {{count}} 条？",
+  "deletedMany": "已删除 {{count}} 条",
+  "deleteManyFailed": "{{count}} 条删除失败",
+  "empty": "暂无数据",
+  "loading": "加载中…",
+  "filter": {
+    "all": "全部",
+    "search": "查询",
+    "reset": "重置"
+  },
+  "col": {
+    "actions": "操作"
+  },
+  "bool": {
+    "yes": "是",
+    "no": "否"
+  },
+  "fields": {
+    "sku": "SKU",
+    "title": "名称",
+    "price": "价格",
+    "in-stock": "有货",
+    "category": "分类",
+    "homepage": "主页"
+  },
+  "filters": {},
+  "enum": {
+    "category": {
+      "books": "图书",
+      "games": "游戏",
+      "music": "音乐"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "title": "订单管理",
+  "description": "订单（由 OpenAPI 文档生成：/api/orders）",
+  "create": "新建",
+  "createTitle": "新建",
+  "editTitle": "编辑",
+  "edit": "编辑",
+  "delete": "删除",
+  "cancel": "取消",
+  "save": "保存",
+  "deleteConfirm": "确定删除 {{item}}？",
+  "created": "已新建 {{item}}",
+  "updated": "已保存 {{item}}",
+  "deleted": "已删除 {{item}}",
+  "exportSelected": "导出选中",
+  "selected": "已选 {{count}} 项",
+  "clear": "清除",
+  "selectAll": "全选",
+  "selectRow": "选择 {{item}}",
+  "deleteSelected": "删除选中",
+  "deleteManyConfirm": "确定删除选中的 {{count}} 条？",
+  "deletedMany": "已删除 {{count}} 条",
+  "deleteManyFailed": "{{count}} 条删除失败",
+  "empty": "暂无数据",
+  "loading": "加载中…",
+  "filter": {
+    "all": "全部",
+    "search": "查询",
+    "reset": "重置"
+  },
+  "col": {
+    "actions": "操作"
+  },
+  "bool": {
+    "yes": "是",
+    "no": "否"
+  },
+  "fields": {
+    "customer": "客户",
+    "email": "邮箱",
+    "status": "状态",
+    "amount": "金额",
+    "paid": "已支付",
+    "deliverOn": "交付日期",
+    "note": "备注",
+    "id": "ID",
+    "createdAt": "创建时间"
+  },
+  "filters": {
+    "status": "状态",
+    "q": "关键词"
+  },
+  "enum": {
+    "status": {
+      "pending": "待支付",
+      "paid": "已支付",
+      "shipped": "已发货",
+      "cancelled": "已取消"
+    }
+  },
+  "detail": {
+    "back": "返回列表",
+    "notFound": "数据不存在",
+    "notFoundHint": "这个租户下没有 ID 为 {{id}} 的数据。"
+  }
+}

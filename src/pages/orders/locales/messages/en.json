@@ -1,0 +1,66 @@
+{
+  "title": "Orders",
+  "description": "Orders, generated from the OpenAPI document (/api/orders)",
+  "create": "New order",
+  "createTitle": "New order",
+  "editTitle": "Edit order",
+  "edit": "Edit",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "save": "Save",
+  "deleteConfirm": "Delete {{item}}?",
+  "created": "Created {{item}}",
+  "updated": "Saved {{item}}",
+  "deleted": "Deleted {{item}}",
+  "exportSelected": "Export selected",
+  "selected": "Selected: {{count}}",
+  "clear": "Clear",
+  "selectAll": "Select all",
+  "selectRow": "Select {{item}}",
+  "deleteSelected": "Delete selected",
+  "deleteManyConfirm": "Delete the {{count}} selected rows?",
+  "deletedMany": "Deleted: {{count}}",
+  "deleteManyFailed": "Could not delete: {{count}}",
+  "empty": "Nothing here yet",
+  "loading": "Loading…",
+  "filter": {
+    "all": "All",
+    "search": "Search",
+    "reset": "Reset"
+  },
+  "col": {
+    "actions": "Actions"
+  },
+  "bool": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "fields": {
+    "customer": "Customer",
+    "email": "Email",
+    "status": "Status",
+    "amount": "Amount",
+    "paid": "Paid",
+    "deliverOn": "Deliver on",
+    "note": "Note",
+    "id": "Id",
+    "createdAt": "Created"
+  },
+  "filters": {
+    "status": "Status",
+    "q": "Keyword"
+  },
+  "enum": {
+    "status": {
+      "pending": "pending",
+      "paid": "paid",
+      "shipped": "shipped",
+      "cancelled": "cancelled"
+    }
+  },
+  "detail": {
+    "back": "Back to list",
+    "notFound": "Not found",
+    "notFoundHint": "This tenant has no item with ID {{id}}."
+  }
+}

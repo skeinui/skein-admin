@@ -1,0 +1,54 @@
+{
+  "title": "Products",
+  "description": "Products, generated from the OpenAPI document (/v1/catalog/products)",
+  "create": "New product",
+  "createTitle": "New product",
+  "editTitle": "Edit product",
+  "edit": "Edit",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "save": "Save",
+  "deleteConfirm": "Delete {{item}}?",
+  "created": "Created {{item}}",
+  "updated": "Saved {{item}}",
+  "deleted": "Deleted {{item}}",
+  "exportSelected": "Export selected",
+  "selected": "Selected: {{count}}",
+  "clear": "Clear",
+  "selectAll": "Select all",
+  "selectRow": "Select {{item}}",
+  "deleteSelected": "Delete selected",
+  "deleteManyConfirm": "Delete the {{count}} selected rows?",
+  "deletedMany": "Deleted: {{count}}",
+  "deleteManyFailed": "Could not delete: {{count}}",
+  "empty": "Nothing here yet",
+  "loading": "Loading…",
+  "filter": {
+    "all": "All",
+    "search": "Search",
+    "reset": "Reset"
+  },
+  "col": {
+    "actions": "Actions"
+  },
+  "bool": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "fields": {
+    "sku": "Sku",
+    "title": "Title",
+    "price": "Price",
+    "in-stock": "In stock",
+    "category": "Category",
+    "homepage": "Homepage"
+  },
+  "filters": {},
+  "enum": {
+    "category": {
+      "books": "books",
+      "games": "games",
+      "music": "music"
+    }
+  }
+}

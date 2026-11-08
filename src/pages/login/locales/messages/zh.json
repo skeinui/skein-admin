@@ -1,0 +1,20 @@
+{
+  "title": "登录",
+  "subtitle": "登录 Skein Admin，管理租户、用户、订单和商品",
+  "username": "用户名",
+  "password": "密码",
+  "submit": "登录",
+  "failed": "登录失败",
+  "expired": "登录已过期，请重新登录，登录后会回到刚才的页面。",
+  "mockHint": "演示账号：admin / admin123（全部权限），viewer / viewer123（只读）；数据由 MSW 模拟",
+  "layout": "布局",
+  "variant": {
+    "centered": "居中",
+    "split": "分栏",
+    "cover": "封面"
+  },
+  "cover": {
+    "title": "Skein Admin 管理后台",
+    "description": "基于 Skein UI 的多租户后台模板：主题、权限、标签页与增删改查页面，开箱即用"
+  }
+}
